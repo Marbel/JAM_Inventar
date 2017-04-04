@@ -1,0 +1,19 @@
+﻿<!--?xml version="1.0" encoding="utf-8" ?-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="JAM Inventar" namespace="JAM_Inventar.Domain">
+
+  <class name="Product" table="products">
+    <id name="Id" column="Id" type="int">
+      <generator class="native">
+      </generator>
+    </id>
+    <property name="Name" />
+    <property name="StartAmount" />
+    <property name="Unit" />
+    <bag name="Modifications" cascade="all-delete-orphan">
+      <key column="ProductId" />
+      <one-to-many class="Modification" />
+    </bag>
+    <many-to-one name="Location" class="Location" column="LocationId"/>
+  </class>
+
+</hibernate-mapping>
