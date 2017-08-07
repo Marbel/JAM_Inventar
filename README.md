@@ -12,6 +12,23 @@ What things you need to install the software and how to install them
 
 .NET Framework 4.5
 
+### Pictures
+
+Overview
+![Overview Picture](https://user-images.githubusercontent.com/5067628/29044242-ccb3bcd6-7bbe-11e7-9b3b-dc5ace4a92a5.PNG?raw=true "Overview")
+
+New Product
+![New Product Picture](https://user-images.githubusercontent.com/5067628/29044244-ccb4093e-7bbe-11e7-9152-a85d72dc1a89.PNG?raw=true "New Product")
+
+New Modification
+![New Modification Picture](https://user-images.githubusercontent.com/5067628/29044240-ccad88c0-7bbe-11e7-800c-8363db616321.PNG?raw=true "New Modification")
+
+Modification Overview
+![Modification Overview Picture](https://user-images.githubusercontent.com/5067628/29044243-ccb59d08-7bbe-11e7-8975-51cdae55401e.PNG?raw=true "Modification Overview")
+
+New Location
+![New Location Picture](https://user-images.githubusercontent.com/5067628/29044241-ccb00d3e-7bbe-11e7-95ed-924ef08798ef.PNG?raw=true "New Location")
+
 
 ### Installing
 
