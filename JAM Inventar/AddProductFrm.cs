@@ -90,7 +90,8 @@ namespace JAM_Inventar
                 Location = loc,
                 Name = this.txtBoxName.Text,
                 StartAmount = Convert.ToInt32(this.txtBoxStartAmount.Text),
-                Unit = this.txtBoxUnit.Text
+                Unit = this.txtBoxUnit.Text,
+                Modifications = new List<Modification>()
             };
 
             Start.Sess.Save(prod);
