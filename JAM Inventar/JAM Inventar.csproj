@@ -227,6 +227,9 @@
     <EmbeddedResource Include="ProductModificationList.de.resx">
       <DependentUpon>ProductModificationList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProductModificationList.en.resx">
+      <DependentUpon>ProductModificationList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Start.de.resx">
       <DependentUpon>Start.cs</DependentUpon>
     </EmbeddedResource>

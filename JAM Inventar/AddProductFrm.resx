@@ -267,9 +267,6 @@
   <data name="lblUnit.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="btnSave.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
   <data name="lblStartAmount.Error" xml:space="preserve">
     <value />
   </data>
@@ -321,6 +318,9 @@
   <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
     <value>btnCancel</value>
   </data>
+  <data name="&gt;&gt;lblNewProduct.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
   <data name="&gt;&gt;txtBoxName.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -339,8 +339,8 @@
   <data name="lblLocation.Text" xml:space="preserve">
     <value>Location</value>
   </data>
-  <data name="btnCancel.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="btnSave.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="lblUnit.Text" xml:space="preserve">
     <value>Einheit:</value>
@@ -353,9 +353,6 @@
   </data>
   <data name="txtBoxName.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>AddProductFrm</value>
   </data>
   <data name="lblLocation.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -423,14 +420,17 @@
   <data name="lblUnit.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="lblStartAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 166</value>
+  </data>
   <data name="txtBoxUnit.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;cmBoxLocations.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;lblNewProduct.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AddProductFrm</value>
   </data>
   <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -510,6 +510,9 @@
   <data name="lblUnit.Error" xml:space="preserve">
     <value />
   </data>
+  <data name="btnCancel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;lblNewProduct.Name" xml:space="preserve">
     <value>lblNewProduct</value>
   </data>
@@ -585,8 +588,8 @@
   <data name="lblNewProduct.Size" type="System.Drawing.Size, System.Drawing">
     <value>300, 55</value>
   </data>
-  <data name="lblStartAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 166</value>
+  <data name="lblLocation.Error1" xml:space="preserve">
+    <value />
   </data>
   <data name="lblName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -599,9 +602,6 @@
   </data>
   <data name="txtBoxName.Size" type="System.Drawing.Size, System.Drawing">
     <value>226, 26</value>
-  </data>
-  <data name="lblLocation.Error1" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;lblStartAmount.ZOrder" xml:space="preserve">
     <value>8</value>

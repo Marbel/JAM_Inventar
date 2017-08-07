@@ -118,31 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnCancel.Text" xml:space="preserve">
-    <value>Abbrechen</value>
-  </data>
-  <data name="btnSave.Text" xml:space="preserve">
-    <value>Speichern</value>
+    <value>Close</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblLocation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 29</value>
+  <data name="editToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 30</value>
   </data>
-  <data name="lblLocation.Text" xml:space="preserve">
-    <value>Lager</value>
+  <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 30</value>
   </data>
-  <data name="lblStartAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 29</value>
-  </data>
-  <data name="lblStartAmount.Text" xml:space="preserve">
-    <value>Start Menge:</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Produkt hinzufügen</value>
-  </data>
-  <data name="lblNewProduct.Size" type="System.Drawing.Size, System.Drawing">
-    <value>343, 55</value>
-  </data>
-  <data name="lblNewProduct.Text" xml:space="preserve">
-    <value>Neues Produkt</value>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 64</value>
   </data>
 </root>

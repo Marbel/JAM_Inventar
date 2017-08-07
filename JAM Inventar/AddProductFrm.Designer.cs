@@ -106,20 +106,20 @@
             // 
             resources.ApplyResources(this.cmBoxLocations, "cmBoxLocations");
             this.cmBoxLocations.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.errorProvider2.SetError(this.cmBoxLocations, resources.GetString("cmBoxLocations.Error"));
-            this.errorProvider1.SetError(this.cmBoxLocations, resources.GetString("cmBoxLocations.Error1"));
+            this.errorProvider1.SetError(this.cmBoxLocations, resources.GetString("cmBoxLocations.Error"));
+            this.errorProvider2.SetError(this.cmBoxLocations, resources.GetString("cmBoxLocations.Error1"));
             this.cmBoxLocations.FormattingEnabled = true;
             this.errorProvider1.SetIconAlignment(this.cmBoxLocations, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("cmBoxLocations.IconAlignment"))));
             this.errorProvider2.SetIconAlignment(this.cmBoxLocations, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("cmBoxLocations.IconAlignment1"))));
-            this.errorProvider1.SetIconPadding(this.cmBoxLocations, ((int)(resources.GetObject("cmBoxLocations.IconPadding"))));
-            this.errorProvider2.SetIconPadding(this.cmBoxLocations, ((int)(resources.GetObject("cmBoxLocations.IconPadding1"))));
+            this.errorProvider2.SetIconPadding(this.cmBoxLocations, ((int)(resources.GetObject("cmBoxLocations.IconPadding"))));
+            this.errorProvider1.SetIconPadding(this.cmBoxLocations, ((int)(resources.GetObject("cmBoxLocations.IconPadding1"))));
             this.cmBoxLocations.Name = "cmBoxLocations";
             // 
             // txtBoxUnit
             // 
             resources.ApplyResources(this.txtBoxUnit, "txtBoxUnit");
-            this.errorProvider2.SetError(this.txtBoxUnit, resources.GetString("txtBoxUnit.Error"));
-            this.errorProvider1.SetError(this.txtBoxUnit, resources.GetString("txtBoxUnit.Error1"));
+            this.errorProvider1.SetError(this.txtBoxUnit, resources.GetString("txtBoxUnit.Error"));
+            this.errorProvider2.SetError(this.txtBoxUnit, resources.GetString("txtBoxUnit.Error1"));
             this.errorProvider2.SetIconAlignment(this.txtBoxUnit, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("txtBoxUnit.IconAlignment"))));
             this.errorProvider1.SetIconAlignment(this.txtBoxUnit, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("txtBoxUnit.IconAlignment1"))));
             this.errorProvider2.SetIconPadding(this.txtBoxUnit, ((int)(resources.GetObject("txtBoxUnit.IconPadding"))));
@@ -129,8 +129,8 @@
             // txtBoxStartAmount
             // 
             resources.ApplyResources(this.txtBoxStartAmount, "txtBoxStartAmount");
-            this.errorProvider2.SetError(this.txtBoxStartAmount, resources.GetString("txtBoxStartAmount.Error"));
-            this.errorProvider1.SetError(this.txtBoxStartAmount, resources.GetString("txtBoxStartAmount.Error1"));
+            this.errorProvider1.SetError(this.txtBoxStartAmount, resources.GetString("txtBoxStartAmount.Error"));
+            this.errorProvider2.SetError(this.txtBoxStartAmount, resources.GetString("txtBoxStartAmount.Error1"));
             this.errorProvider2.SetIconAlignment(this.txtBoxStartAmount, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("txtBoxStartAmount.IconAlignment"))));
             this.errorProvider1.SetIconAlignment(this.txtBoxStartAmount, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("txtBoxStartAmount.IconAlignment1"))));
             this.errorProvider2.SetIconPadding(this.txtBoxStartAmount, ((int)(resources.GetObject("txtBoxStartAmount.IconPadding"))));
@@ -140,8 +140,8 @@
             // txtBoxName
             // 
             resources.ApplyResources(this.txtBoxName, "txtBoxName");
-            this.errorProvider2.SetError(this.txtBoxName, resources.GetString("txtBoxName.Error"));
-            this.errorProvider1.SetError(this.txtBoxName, resources.GetString("txtBoxName.Error1"));
+            this.errorProvider1.SetError(this.txtBoxName, resources.GetString("txtBoxName.Error"));
+            this.errorProvider2.SetError(this.txtBoxName, resources.GetString("txtBoxName.Error1"));
             this.errorProvider2.SetIconAlignment(this.txtBoxName, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("txtBoxName.IconAlignment"))));
             this.errorProvider1.SetIconAlignment(this.txtBoxName, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("txtBoxName.IconAlignment1"))));
             this.errorProvider2.SetIconPadding(this.txtBoxName, ((int)(resources.GetObject("txtBoxName.IconPadding"))));
@@ -152,12 +152,12 @@
             // 
             resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.errorProvider2.SetError(this.btnSave, resources.GetString("btnSave.Error"));
-            this.errorProvider1.SetError(this.btnSave, resources.GetString("btnSave.Error1"));
-            this.errorProvider2.SetIconAlignment(this.btnSave, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("btnSave.IconAlignment"))));
-            this.errorProvider1.SetIconAlignment(this.btnSave, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("btnSave.IconAlignment1"))));
-            this.errorProvider1.SetIconPadding(this.btnSave, ((int)(resources.GetObject("btnSave.IconPadding"))));
-            this.errorProvider2.SetIconPadding(this.btnSave, ((int)(resources.GetObject("btnSave.IconPadding1"))));
+            this.errorProvider1.SetError(this.btnSave, resources.GetString("btnSave.Error"));
+            this.errorProvider2.SetError(this.btnSave, resources.GetString("btnSave.Error1"));
+            this.errorProvider1.SetIconAlignment(this.btnSave, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("btnSave.IconAlignment"))));
+            this.errorProvider2.SetIconAlignment(this.btnSave, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("btnSave.IconAlignment1"))));
+            this.errorProvider2.SetIconPadding(this.btnSave, ((int)(resources.GetObject("btnSave.IconPadding"))));
+            this.errorProvider1.SetIconPadding(this.btnSave, ((int)(resources.GetObject("btnSave.IconPadding1"))));
             this.btnSave.Name = "btnSave";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -165,12 +165,12 @@
             // btnCancel
             // 
             resources.ApplyResources(this.btnCancel, "btnCancel");
-            this.errorProvider2.SetError(this.btnCancel, resources.GetString("btnCancel.Error"));
-            this.errorProvider1.SetError(this.btnCancel, resources.GetString("btnCancel.Error1"));
-            this.errorProvider2.SetIconAlignment(this.btnCancel, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("btnCancel.IconAlignment"))));
-            this.errorProvider1.SetIconAlignment(this.btnCancel, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("btnCancel.IconAlignment1"))));
-            this.errorProvider1.SetIconPadding(this.btnCancel, ((int)(resources.GetObject("btnCancel.IconPadding"))));
-            this.errorProvider2.SetIconPadding(this.btnCancel, ((int)(resources.GetObject("btnCancel.IconPadding1"))));
+            this.errorProvider1.SetError(this.btnCancel, resources.GetString("btnCancel.Error"));
+            this.errorProvider2.SetError(this.btnCancel, resources.GetString("btnCancel.Error1"));
+            this.errorProvider1.SetIconAlignment(this.btnCancel, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("btnCancel.IconAlignment"))));
+            this.errorProvider2.SetIconAlignment(this.btnCancel, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("btnCancel.IconAlignment1"))));
+            this.errorProvider2.SetIconPadding(this.btnCancel, ((int)(resources.GetObject("btnCancel.IconPadding"))));
+            this.errorProvider1.SetIconPadding(this.btnCancel, ((int)(resources.GetObject("btnCancel.IconPadding1"))));
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
